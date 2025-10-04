@@ -1,0 +1,96 @@
+# -------------------------
+# Node / package managers
+# -------------------------
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# -------------------------
+# Build outputs
+# -------------------------
+dist/
+build/
+.out/
+storybook-static/
+
+# Vite cache
+node_modules/.vite/
+.vite/
+
+# Misc caches
+.cache/
+.cache-loader/
+.turbo/
+
+# TypeScript
+*.tsbuildinfo
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Testing / Reports
+# -------------------------
+coverage/
+lcov-report/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+test-results/
+
+# -------------------------
+# Environment files
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Editors / OS files
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Vim/Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# -------------------------
+# Hosting / tooling
+# -------------------------
+.vercel/
+.netlify/
+firebase-debug.log
+.firebase/
+
+# -------------------------
+# Temp
+# -------------------------
+tmp/
+temp/

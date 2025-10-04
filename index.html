@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalvikann Foundation</title>
+    <meta name="description" content="Empowering communities through education, development, and the Infinite e-Learning Initiative." />
+    <link rel="icon" type="image/png" href="/logo.png" />
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Advanced Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=Roboto+Slab:wght@400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (optional, if you use it) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Smooth scrolling & font rendering -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+        font-smooth: antialiased;
+        -webkit-font-smoothing: antialiased;
+      }
+      body {
+        font-family: 'Inter', 'Poppins', sans-serif;
+        background-color: #ffffff;
+        color: #1f2937; /* Tailwind gray-800 */
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Space Grotesk', 'Roboto Slab', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- React root -->
+    <div id="root"></div>
+
+    <!-- Main entry -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
