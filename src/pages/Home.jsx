@@ -392,12 +392,6 @@ function Banner({ slidesData }) {
           >
             Explore
           </button>
-          <button
-            onClick={() => navigate("/contact")}
-            className="px-5 py-3 rounded-full bg-white/10 border border-white/25 text-white hover:bg-white/20 transition"
-          >
-            Get in Touch
-          </button>
         </motion.div>
       </div>
 
